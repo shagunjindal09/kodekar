@@ -1,0 +1,27 @@
+int main() {
+   char a,b;
+    scanf("%c",&a);
+    scanf("%c",&b);
+    if(a=='R'&&b=='S')
+        printf("A");
+    else if(a=='s'&& b=='R')
+        printf("B");
+    else if(a=='S'&& b=='P')
+        printf("A");
+    else if(a=='P'&& b=='S')
+        printf("B");
+    else if(a=='P' && b=='R')
+        printf("A");
+    else if(a=='R' && b=='P')
+        printf("B");
+    else if(a=='S' && b=='S')
+        printf("Draw");
+     else if(a=='R' && b=='R')
+        printf("Draw");
+     else if(a=='P' && b=='P')
+        printf("Draw");
+    
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
